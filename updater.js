@@ -28,7 +28,7 @@
 //   title              string  — optional; overrides the default popup title.
 //   description        string  — what's new; plain text, shown in the popup.
 //   downloadUrl        string  — where the Get-update button goes (browser).
-//                                     Releases live on israrxy/ZENIM (not here).
+//                                     Releases live in THIS repo's Releases.
 
 const UPDATER = {
     "latestVersionCode": 1,
@@ -37,5 +37,5 @@ const UPDATER = {
     "minVersionCode": 1,
     "title": "",
     "description": "v1.0: new Zenim look (icon + splash), cleaner stream bar parking, per-torrent file picker, menus on search results and player, landscape skip buttons, developer card with photo, and an in-app update checker.",
-    "downloadUrl": "https://github.com/israrxy/Zenim/releases/latest"
+    "downloadUrl": "https://github.com/israrxy/zenim-android/releases/latest"
 }
