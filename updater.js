@@ -28,14 +28,14 @@
 //   title              string  — optional; overrides the default popup title.
 //   description        string  — what's new; plain text, shown in the popup.
 //   downloadUrl        string  — where the Get-update button goes (browser).
-//                                     Releases live in THIS repo's Releases.
+//                                     Releases live on israrxy/zenim-android.
 
 const UPDATER = {
-    "latestVersionCode": 1,
-    "latestVersionName": "1.0",
+    "latestVersionCode": 2,
+    "latestVersionName": "1.1",
     "mandatory": false,
     "minVersionCode": 1,
     "title": "",
-    "description": "v1.0: new Zenim look (icon + splash), cleaner stream bar parking, per-torrent file picker, menus on search results and player, landscape skip buttons, developer card with photo, and an in-app update checker.",
+    "description": "v1.1 fixes the first-run setup: the all-files permission screen no longer bounces back on itself (the flicker / stuck-touch you may have seen), and updates now install straight through Chrome with no extra permission step.",
     "downloadUrl": "https://github.com/israrxy/zenim-android/releases/latest"
 }
