@@ -13,8 +13,8 @@
 //      the description with what's new.
 //   3. Upload this file to the repo (overwrite the old one).
 //
-// Keep it a strict JSON object (quoted keys, one string per value, no
-// trailing commas) — everything from the first { is parsed as JSON.
+// Keep the object itself strict-JSON (quoted keys, one string per value, no
+// trailing commas) — the app reads exactly that object, nothing else.
 //
 // FIELDS:
 //   latestVersionCode  number  — must grow with every release; the app compares
