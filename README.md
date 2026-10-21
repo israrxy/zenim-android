@@ -5,11 +5,11 @@ stream torrents directly on your phone, wrapped in a soft Material 3
 Expressive look built around a rose palette.
 
 <p align="center">
-  <img src="screenshots/search.png" width="230" alt="Search results with Stream and Download buttons"/>
+  <img src="screenshots/search.jpeg" width="230" alt="Search results with Stream and Download buttons"/>
   &nbsp;&nbsp;
-  <img src="screenshots/downloads.png" width="230" alt="Downloads list of finished torrents"/>
+  <img src="screenshots/downloads.jpeg" width="230" alt="Downloads list of finished torrents"/>
   &nbsp;&nbsp;
-  <img src="screenshots/library.png" width="230" alt="Library grid of saved media"/>
+  <img src="screenshots/library.jpeg" width="230" alt="Library grid of saved media"/>
 </p>
 
 ## ✨ Highlights
