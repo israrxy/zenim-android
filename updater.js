@@ -6,10 +6,15 @@
 // below is higher than the installed build, an "Update available" popup shows.
 //
 // HOW TO PUBLISH AN UPDATE:
-//   1. Build the new APK and upload it (e.g. a GitHub release on zenim-android).
+//   1. Push a v* tag (e.g. v1.1.0) — GitHub Actions builds + publishes a
+//      release on israrxy/Zenim with the APK attached automatically.
 //   2. Edit the fields below, bump latestVersionCode (must be a bigger number
-//      than before), and update "description" with what's new.
+//      than before — builds carry it from app/build.gradle.kts), and update
+//      the description with what's new.
 //   3. Upload this file to the repo (overwrite the old one).
+//
+// Keep it a strict JSON object (quoted keys, one string per value, no
+// trailing commas) — everything from the first { is parsed as JSON.
 //
 // FIELDS:
 //   latestVersionCode  number  — must grow with every release; the app compares
@@ -23,16 +28,14 @@
 //   title              string  — optional; overrides the default popup title.
 //   description        string  — what's new; plain text, shown in the popup.
 //   downloadUrl        string  — where the Get-update button goes (browser).
+//                                     Releases live on israrxy/ZENIM (not here).
 
 const UPDATER = {
-    latestVersionCode: 1,
-    latestVersionName: "1.0",
-    mandatory: false,
-    minVersionCode: 1,
-    title: "",
-    description:
-        "Round 14: smoother stream bar parking, file picker with per-file " +
-        "selection, search and player menus, skip buttons in landscape, and " +
-        "the new Zenim look (icon + splash).",
-    downloadUrl: "https://github.com/israrxy/zenim-android/releases/latest"
+    "latestVersionCode": 1,
+    "latestVersionName": "1.0",
+    "mandatory": false,
+    "minVersionCode": 1,
+    "title": "",
+    "description": "v1.0: new Zenim look (icon + splash), cleaner stream bar parking, per-torrent file picker, menus on search results and player, landscape skip buttons, developer card with photo, and an in-app update checker.",
+    "downloadUrl": "https://github.com/israrxy/Zenim/releases/latest"
 }
