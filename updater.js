@@ -10,7 +10,7 @@
 //      release on israrxy/Zenim with the APK attached automatically.
 //   2. Edit the fields below, bump latestVersionCode (must be a bigger number
 //      than before — builds carry it from app/build.gradle.kts), and update
-//      the description with what's new., and point assetUrl at
+//      the description with what's new, and point assetUrl at
 //      the new release's APK (the site download button follows it).
 //   3. Upload this file to the repo (overwrite the old one).
 //
@@ -30,6 +30,9 @@
 //   description        string  — what's new; plain text, shown in the popup.
 //   downloadUrl        string  — where the Get-update button goes (browser).
 //                                     Releases live on israrxy/zenim-android.
+//   assetUrl           string  — direct APK link of the newest
+//                                release; the site /download button
+//                                redirects here.
 
 const UPDATER = {
     "latestVersionCode": 2,
