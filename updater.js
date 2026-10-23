@@ -10,7 +10,8 @@
 //      release on israrxy/Zenim with the APK attached automatically.
 //   2. Edit the fields below, bump latestVersionCode (must be a bigger number
 //      than before — builds carry it from app/build.gradle.kts), and update
-//      the description with what's new.
+//      the description with what's new., and point assetUrl at
+//      the new release's APK (the site download button follows it).
 //   3. Upload this file to the repo (overwrite the old one).
 //
 // Keep the object itself strict-JSON (quoted keys, one string per value, no
@@ -37,5 +38,6 @@ const UPDATER = {
     "minVersionCode": 1,
     "title": "",
     "description": "v1.1 fixes the first-run setup: the all-files permission screen no longer bounces back on itself (the flicker / stuck-touch you may have seen), and updates now install straight through Chrome with no extra permission step.",
-    "downloadUrl": "https://github.com/israrxy/zenim-android/releases/latest"
+    "downloadUrl": "https://github.com/israrxy/zenim-android/releases/latest",
+    "assetUrl": "https://github.com/israrxy/zenim-android/releases/download/v1.1.0/zenim-v1.1.0.apk"
 }
